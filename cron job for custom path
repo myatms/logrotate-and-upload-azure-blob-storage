@@ -1,0 +1,2 @@
+crontab -e
+59 23 * * * /usr/sbin/logrotate /home/ubuntu/logrotate/logrotate.conf --state /home/ubuntu/logrotate/logrotate-state --force
